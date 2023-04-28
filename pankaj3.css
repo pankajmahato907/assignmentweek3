@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FFBA00;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    margin-top: 20px;
+    margin-bottom: 60px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.person1{
+    text-align: center;
+}
+
+.person2{
+    text-align: center;
+}
+
+.person3{
+    text-align: center;
+}
+
+.name{
+    margin-top: 25px;
+    font-size: 32px;
+    font-weight:900;
+}
+
+.job{
+    font-size: 20px;
+}
+
+.company{
+    font-size: 20px;
+}
+
+.date{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+@media (max-width: 1127px){
+    .container{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
